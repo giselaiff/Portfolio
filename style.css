@@ -19,7 +19,7 @@ a {
 	margin: auto;
 }
 
-/* HEADER */
+/* Header*/
 
 header {
 	padding: 60px 0;
@@ -39,20 +39,114 @@ header .logo p {
     height:100px;
     border-radius:150px;
 }
-header .categories {
+header .nav {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 
-header .categories a {
+header .nav a {
 	color: #9B9B9B;
 	margin: 10px 20px;
 	font-size: 18px;
 	font-weight: 700;
 }
+/* Home */
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	height: 500px;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -135%;}
+	45% {margin-left: -135%;}
+	
+	50% {margin-left: -270%;}
+	70% {margin-left: -270%;}
+
+}
 
 
+/* About me */
+
+
+
+
+/* Project */
+
+  .project{
+	width: 200px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 15px;
+  }
+
+  .img-project{
+	width: 200px;
+	height: 130px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 15px;
+  }
+
+
+  /* Contact */
+
+input[type=text], select, textarea {
+	width: 100%; 
+	padding: 12px; 
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	box-sizing: border-box; 
+	margin-top: 6px; 
+	margin-bottom: 10px; 
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: black;
+  }
+    .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 5px;
+  }
+  
 
 /* Footer */
 
