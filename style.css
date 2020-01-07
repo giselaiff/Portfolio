@@ -91,6 +91,17 @@ header .nav a {
 
 /* About me */
 
+.about-me {
+color: #9B9B9B;
+font-size: 18px;
+font-weight: 500;
+display: flex;
+
+}
+
+.p {
+	justify-content: center;
+}
 
 
 
